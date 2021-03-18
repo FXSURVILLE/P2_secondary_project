@@ -1,3 +1,37 @@
-body {
-    background-image:url(img/background.jpg);
-    }
+#background {
+    /* Fixe l'image en haut à gauche de la page */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    /* Préserve le ratio de l'image */
+    min-width: 100%;
+    min-height: 100%;
+}
+table
+{
+    margin: auto;
+    border-collapse: collapse;
+}
+.formation
+{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td
+{
+    font-family: Arial, "Arial Black", "Comic Sans MS", "Courier New", sans-serif;
+}
+.card-title, h1, h2
+{
+    font-family: "Lucida Fax", Arial, "Arial Black", "Comic Sans MS", sans-serif;
+}
+h1
+{
+    text-decoration: underline;
+    text-decoration-color: gold;
+    color: gold;
+}
+li
+{
+    text-align: left;
+}
